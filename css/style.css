@@ -155,8 +155,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .main {
-  margin-top: 115px;
   width: 100%;
+}
+
+.block__creative-diagram {
+  margin-top: 115px;
 }
 
 .block {
@@ -249,7 +252,7 @@ h1, h2, h3, h4, h5, h6 {
   bottom: -50px;
 }
 
-.creative__icon {
+.creative__icon_creative-diagram {
   max-width: 100px;
   position: absolute;
   left: -50px;
@@ -262,6 +265,142 @@ h1, h2, h3, h4, h5, h6 {
   top: 157px;
   right: 0px;
   z-index: -1;
+}
+
+.block__we-build-pro {
+  margin-top: 350px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.block__text {
+  max-width: 470px;
+}
+
+.block__text p {
+  padding-top: 0;
+}
+
+.block__head-list {
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.block__head-list li::before {
+  content: url(/img/we_build_pro_busines/Shape.svg);
+  width: 26px;
+  height: 22px;
+  margin-right: 8px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.point {
+  margin-right: 12px;
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background-color: #F07566;
+  border-radius: 6px;
+}
+
+.block__head div:first-child {
+  margin-top: 25px;
+}
+
+.block__head > p {
+  font-family: 'Hind Siliguri', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  margin-bottom: 34px;
+}
+
+.block__head-title {
+  font-family: 'Hind Siliguri', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: -1px;
+  color: #333333;
+}
+
+.block__button {
+  width: 170px;
+  height: 48px;
+  font-family: 'Hind Siliguri', sans-serif;
+  text-align: center;
+}
+
+.button {
+  font-family: 'Hind Siliguri', sans-serif;
+  display: block;
+  width: 170px;
+  height: 48px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #ffffff;
+  border-radius: 5px;
+  border: 1px solid #F07566;
+  background-color: #F07566;
+  margin-top: 35px;
+}
+
+.creative__diagram {
+  position: relative;
+  max-width: 500px;
+}
+
+.creative__grey_box {
+  display: block;
+  max-width: 520px;
+  width: 100%;
+  margin-left: 40px;
+}
+
+.creative__chard {
+  max-width: 216px;
+  position: absolute;
+  left: -50px;
+  bottom: -50px;
+}
+
+.creative__icon {
+  max-width: 100px;
+  position: absolute;
+  left: -10px;
+  top: 100px;
+}
+
+.creative__red_box {
+  max-width: 132px;
+  position: absolute;
+  top: 157px;
+  right: 0px;
+  z-index: -1;
+}
+
+.creative__yellow-bc {
+  position: absolute;
 }
 
 body {
