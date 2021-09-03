@@ -1,0 +1,275 @@
+@charset "UTF-8";
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*--------------------*/
+.header {
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__logo {
+  width: 100px;
+  height: 30px;
+}
+
+.header__nav {
+  margin-left: 20px;
+  width: 460px;
+}
+
+.nav__item-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.nav-link {
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 32px;
+  color: #000000;
+}
+
+.header__nav-button {
+  width: 170px;
+  height: 48px;
+  font-family: 'Hind Siliguri', sans-serif;
+  text-align: center;
+}
+
+.nav-button {
+  font-family: 'Hind Siliguri', sans-serif;
+  display: block;
+  width: 170px;
+  height: 48px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #F07566;
+  border-radius: 5px;
+  border: 1px solid #F07566;
+  background-color: rgba(240, 118, 102, 0.226);
+}
+
+.main {
+  margin-top: 115px;
+  width: 100%;
+}
+
+.block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.block__text {
+  max-width: 470px;
+}
+
+.block__text > p {
+  padding-top: 59px;
+  color: #F07566;
+  font-family: 'Hind Siliguri', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.point {
+  margin-right: 12px;
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background-color: #F07566;
+  border-radius: 6px;
+}
+
+.block__head div:first-child {
+  margin-top: 25px;
+}
+
+.block__head > p {
+  font-family: 'Work Sans', sans-serif;
+  margin-top: 50px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.block__button {
+  width: 170px;
+  height: 48px;
+  font-family: 'Hind Siliguri', sans-serif;
+  text-align: center;
+}
+
+.button {
+  font-family: 'Hind Siliguri', sans-serif;
+  display: block;
+  width: 170px;
+  height: 48px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #ffffff;
+  border-radius: 5px;
+  border: 1px solid #F07566;
+  background-color: #F07566;
+  margin-top: 35px;
+}
+
+.creative__diagram {
+  position: relative;
+  max-width: 500px;
+}
+
+.creative__yellow_box {
+  display: block;
+  max-width: 460px;
+  width: 100%;
+  margin-right: 40px;
+}
+
+.creative__diagram_schedule {
+  max-width: 216px;
+  position: absolute;
+  left: -50px;
+  bottom: -50px;
+}
+
+.creative__icon {
+  max-width: 100px;
+  position: absolute;
+  left: -50px;
+  top: 100px;
+}
+
+.creative__red_box {
+  max-width: 132px;
+  position: absolute;
+  top: 157px;
+  right: 0px;
+  z-index: -1;
+}
+
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  max-width: 1170px;
+  margin: 0 135px;
+}
