@@ -89,7 +89,7 @@
     display: block;
     max-width: 520px;
     width: 100%;
-    margin-left: 40px;
+    padding-left: 40px;
 }
 .creative__chard{
     max-width: 216px;
@@ -112,4 +112,7 @@
 }
 .creative__yellow-bc{
     position: absolute;
+    bottom: 0px;
+    left: -16px;
+    z-index: 0;
 }

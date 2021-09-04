@@ -1,3 +1,12 @@
+body{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.wrapper{
+    max-width: 1170px;
+    margin: 0 135px;
+}
+
 @import "_nullstyle";
 @import "_header";
 @import "_main";
@@ -8,11 +17,3 @@
 // font-family: 'Hind Siliguri', sans-serif;
 // font-family: 'Work Sans', sans-serif;
 // 
-body{
-    max-width: 1440px;
-    margin: 0 auto;
-}
-.wrapper{
-    max-width: 1170px;
-    margin: 0 135px;
-}

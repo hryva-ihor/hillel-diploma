@@ -1,4 +1,14 @@
 @charset "UTF-8";
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  max-width: 1170px;
+  margin: 0 135px;
+}
+
 /*Обнуление*/
 * {
   padding: 0;
@@ -242,7 +252,7 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   max-width: 460px;
   width: 100%;
-  margin-right: 40px;
+  padding-right: 40px;
 }
 
 .creative__diagram_schedule {
@@ -374,7 +384,7 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   max-width: 520px;
   width: 100%;
-  margin-left: 40px;
+  padding-left: 40px;
 }
 
 .creative__chard {
@@ -401,14 +411,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .creative__yellow-bc {
   position: absolute;
-}
-
-body {
-  max-width: 1440px;
-  margin: 0 auto;
-}
-
-.wrapper {
-  max-width: 1170px;
-  margin: 0 135px;
+  bottom: 0px;
+  left: -16px;
+  z-index: 0;
 }
