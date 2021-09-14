@@ -1,43 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" href="img/hnet.com-image.ico" type="image/x-icon">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@700&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/slick-theme.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/icomoon.css">
   <link rel="stylesheet" href="css/style.css">
   <title>diploma</title>
 </head>
+
 <body>
   <div class="wrapper">
-    <header class="header">
-      <div class="header__menu">
-        <div class="header__logo">
-          <img src="img/CMP.svg" alt="ChMP_logo">
+    <div class="wrapper-content">
+      <header class="header yellow-rectangle-bg" id="header">
+        <div class="header__menu">
+          <button id="burger-icon" class="burger-icon">
+            <div class="burger-icon-item"></div>
+          </button>
+          <div class="header__logo">
+            <img src="img/CMP.svg" alt="ChMP_logo">
+          </div>
+          <div class="header__nav">
+            <nav class="nav__item">
+              <ul class="nav__item-list">
+                <li class="item-list"><a class="nav-link" href="#">About</a></li>
+                <li class="item-list"><a class="nav-link" href="#">Portfolio</a></li>
+                <li class="item-list"><a class="nav-link" href="#">Service</a></li>
+                <li class="item-list"><a class="nav-link" href="#">Blog</a></li>
+                <li class="item-list"><a class="nav-link" href="#">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
         </div>
-        <div class="header__nav">
-          <nav class="nav__item">
-            <ul class="nav__item-list">
-              <li class="item-list"><a class="nav-link" href="#">About</a></li>
-              <li class="item-list"><a class="nav-link" href="#">Portfolio</a></li>
-              <li class="item-list"><a class="nav-link" href="#">Service</a></li>
-              <li class="item-list"><a class="nav-link" href="#">Blog</a></li>
-              <li class="item-list"><a class="nav-link" href="#">Contact</a></li>
-            </ul>
-          </nav>
+        <div class="header__nav-button">
+          <button class="nav-button">Button</button>
         </div>
-      </div>
-      <div class="header__nav-button">
-        <button class="nav-button">Button</button>
-      </div>
-    </header>
-    <main class="main">
+      </header>
+    </div>
+    <div class="wrapper-content">
       <div class="block block__creative-diagram">
         <div class="block__text">
           <p><span class="point"></span>Company</p>
@@ -51,17 +60,19 @@
           </div>
         </div>
         <div class="creative__diagram">
-          <img class="creative__yellow_box" src="img/creativeBlock/woman.png" alt="yellow_box">
-          <img class="creative__diagram_schedule" src="img/creativeBlock/graph.png" alt="diagram">
-          <img class="creative__icon_creative-diagram" src="img/creativeBlock/icon.png" alt="icon">
-          <img class="creative__red_box" src="img/creativeBlock/Rectangle.png" alt="red_box">
-        </div>
+          <div class="creative__icon_creative-diagram"><span class="icon-combined-shape"></span></div>
+          <div class="creative__red_box"></div>
+          <div><img class="creative__diagram_schedule" src="img/creativeBlock/graph.png" alt="graph"></div>
       </div>
+    </div>
+    <div class="wrapper-content">
       <div class="block block__we-build-pro">
         <div class="block__text">
-          <p><span class="point"></span>About</p>
+          <p><span class="point martop"></span>About</p>
           <div class="block__head">
-            <div><h2 class="block__head-title">We Build<br>PRO Business</h2></div>
+            <div>
+              <h2 class="block__head-title">We Build<br>PRO Business</h2>
+            </div>
             <p>Excited to work with customers</p>
             <ul class="block__head-list">
               <li>The sky was cloudless and of a deep </li>
@@ -73,15 +84,72 @@
             <button class="button">Button</button>
           </div>
         </div>
-        <div class="creative__diagram">
-          <img class="creative__grey_box" src="img/we_build_pro_busines/Gray.png" alt="grey_box">
-          <img class="creative__chard" src="img/we_build_pro_busines/chart.png" alt="chart">
-          <img class="creative__icon" src="img/creativeBlock/icon.png" alt="icon">
-          <img class="creative__red_box" src="img/creativeBlock/Rectangle.png" alt="red_box">
-          <img class="creative__yellow-bc" src="img/we_build_pro_busines/RectangleYellow.png" alt="yellow-bc">
+        <div class="we-build-pro__diagram">
+          <div class="we-build-pro__yellow_bg"></div>
+          <div class="we-build-pro__icon_creative-diagram"><span class="icon-shape"></span></div>
+          <div class="we-build-pro__red_box"></div>
+          <div><img class="we-build-pro__diagram_schedule" src="img/we_build_pro_busines/chart.png" alt="graph"></div>
         </div>
       </div>
-    </main>
-  </div>
+    </div>
+    <div class="wrapper-content">
+      <div class="support grey-rectangle-bg">
+        <div class="support__block">
+          <div class="support__block-logo"><span class="icon-grafff"></span></div>
+          <h2 class="support__block-title">Consulting</h2>
+          <p class="support__block-text">The sky was cloudless and of a deep dark blue the spectacle before.</p>
+        </div>
+        <div class="support__block">
+          <div class="support__block-logo"><span class="icon-lamp"></span></div>
+          <h2 class="support__block-title">Consulting</h2>
+          <p class="support__block-text">The sky was cloudless and of a deep dark blue the spectacle before.</p>
+        </div>
+        <div class="support__block">
+          <div class="support__block-logo"><span class="icon-brain"></span></div>
+          <h2 class="support__block-title">Consulting</h2>
+          <p class="support__block-text">The sky was cloudless and of a deep dark blue the spectacle before.</p>
+        </div>
+        <div class="support__block">
+          <div class="support__block-logo"><span class="icon-arrow"></span></div>
+          <h2 class="support__block-title">Consulting</h2>
+          <p class="support__block-text">The sky was cloudless and of a deep dark blue the spectacle before.</p>
+        </div>
+      </div>
+    </div>
+    <div class="wrapper-content scs">
+      <div class="block block__scs">
+        <div class="block__text">
+          <p><span class="point"></span>Features</p>
+          <div class="block__head">
+            <div>
+              <h2 class="block__head-title">Smart Complex<br>Solutions</h2>
+            </div>
+            <p class="block__head-paragraph">Stars had ceased to twinkle the same illusion which lifts the horizon of the sea to the level of the spectator on a hillside, the sable cloud beneath was dished out.</p>
+            <p class="block__head-paragraph second-paragraph">Modern Technology</p>
+            <p class="block__head-paragraph under-paragraph">The sky was cloudless and of a deep dark blue the spectacle before us was indeed sublime.</p>
+          </div>
+        </div>
+        <div class="scs__diagram">
+          <div class="scs__yellow_bg"></div>
+          <div class="scs__icon_creative-diagram"><span class="icon-note"></span></div>
+          <div class="scs__red_box"></div>
+          <div><img class="scs__diagram_schedule" src="img/scs/graph.png" alt="graph"></div>
+      </div>
+    </div>
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/slick.js"></script>
+    <script>
+      $(document).ready(function () {
+        $('.carousel').slick({
+          dots: true
+        });
+        let burger = document.querySelector("#burger-icon");
+        let header = document.querySelector("#header");
+        burger.onclick = function () {
+          header.classList.toggle("menu-open");
+        }
+      });
+    </script>
 </body>
+
 </html>

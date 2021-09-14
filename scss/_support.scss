@@ -1,0 +1,38 @@
+.support {
+    margin-top: 264px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.grey-rectangle-bg::before {
+    content: url(/img/rectangle/Rectangle.png);
+    position: absolute;
+    top: -50%;
+    left: -135px;
+    z-index: -1;
+}
+.support__block {
+    padding: 32px;
+    background-color: #ffffff;
+    max-width: 270px;
+    width: 100%;
+}
+.support__block-logo {
+    margin-bottom: 89px;
+}
+.support__block-title {
+    font-family: "Hind Siliguri", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 18px;
+}
+.support__block-text {
+    font-family: "Work Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    color:  hsla(0, 0%, 20%, 0.603);
+}

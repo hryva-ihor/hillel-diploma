@@ -1,19 +1,24 @@
-body{
-    max-width: 1440px;
-    margin: 0 auto;
-}
-.wrapper{
-    max-width: 1170px;
-    margin: 0 135px;
-}
-
 @import "_nullstyle";
 @import "_header";
 @import "_main";
 @import "_block__creative-diagram";
 @import "_block__we_build_pro";
+@import "_support";
+@import "_scs";
 @import "_footer";
 // ......................................
 // font-family: 'Hind Siliguri', sans-serif;
 // font-family: 'Work Sans', sans-serif;
-// 
+//
+.wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.wrapper-content {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.block {
+    display: flex;
+    justify-content: space-between;
+}

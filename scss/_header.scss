@@ -3,6 +3,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
+}
+.yellow-rectangle-bg::after{
+    content: url(/img/rectangle/Rectangle2.png);
+    position: absolute;
+    top: 0;
+    right: -135px;
+    z-index: -2;
 }
 .header__menu {
     display: flex;
