@@ -1,0 +1,33 @@
+.strategy {
+    height: 340px;
+    padding: 20px;
+    background-color: #F07566;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .block__text{
+        color: white;
+    }
+}
+.block__media {
+    margin-left: 20px;
+    position: relative;
+
+}
+
+.block__head-title.strategy_title{
+    color: white;
+}
+
+.media_bg {
+    position: absolute;
+    z-index: -1;
+    top: 150px;
+    transform: translate(-50%, -50%);
+    left: 250px;
+
+}
+.media_bg-img {
+    height: 100%;
+    width: 500px;
+}

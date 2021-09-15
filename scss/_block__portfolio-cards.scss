@@ -6,21 +6,59 @@
 .portfolio__cards {
     max-width: 570px;
     width: 100%;
-}
-.cards {
-}
-.cards__content {
+    margin-bottom: 50px;
 }
 .cards__photo{
     width: 570px;
     height: 384px;
     background-color: #D8D8D8;
+    border-radius: 8px;
+    position: relative;
 }
 .cards__info {
+    text-align: center;
 }
 .cards__nomber {
+    width: 96px;
+    height: 96px;
+    background-color: #4DB282;
+    border-radius: 0 20px 0 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    span{
+        color: #fff;
+        font-family: 'Hind Siliguri', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        text-align: center;
+        letter-spacing: -1px;
+    }
 }
 .cards__title {
+    margin-top: 25px;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
 }
 .cards__under-title {
+    font-family: "Work Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    color: rgba(51, 51, 51, 0.496405);
+}
+.block__portfolio .block__button {
+    margin: 0 auto;
+    .button{
+        background-color: transparent;
+        color: #F07566;
+    }
 }

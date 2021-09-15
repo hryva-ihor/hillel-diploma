@@ -160,7 +160,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #F07566;
   border-radius: 5px;
   border: 1px solid #F07566;
-  background-color: rgba(240, 118, 102, 0.226);
+  background-color: transparent;
 }
 
 .block__creative-diagram {
@@ -534,12 +534,142 @@ div.block__portfolio .block__text .block__head .under-paragraph {
 .portfolio__cards {
   max-width: 570px;
   width: 100%;
+  margin-bottom: 50px;
 }
 
 .cards__photo {
   width: 570px;
   height: 384px;
   background-color: #D8D8D8;
+  border-radius: 8px;
+  position: relative;
+}
+
+.cards__info {
+  text-align: center;
+}
+
+.cards__nomber {
+  width: 96px;
+  height: 96px;
+  background-color: #4DB282;
+  border-radius: 0 20px 0 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.cards__nomber span {
+  color: #fff;
+  font-family: 'Hind Siliguri', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: -1px;
+}
+
+.cards__title {
+  margin-top: 25px;
+  font-family: 'Hind Siliguri', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.cards__under-title {
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(51, 51, 51, 0.496405);
+}
+
+.block__portfolio .block__button {
+  margin: 0 auto;
+}
+
+.block__portfolio .block__button .button {
+  background-color: transparent;
+  color: #F07566;
+}
+
+.company {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 145px 0 220px 0;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.strategy {
+  height: 340px;
+  padding: 20px;
+  background-color: #F07566;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.strategy .block__text {
+  color: white;
+}
+
+.block__media {
+  margin-left: 20px;
+  position: relative;
+}
+
+.block__head-title.strategy_title {
+  color: white;
+}
+
+.media_bg {
+  position: absolute;
+  z-index: -1;
+  top: 150px;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  left: 250px;
+}
+
+.media_bg-img {
+  height: 100%;
+  width: 500px;
+}
+
+.block__text.strong_members {
+  margin: 150px auto 0;
+  text-align: center;
+  max-width: 700px;
+  width: 100%;
+}
+
+div.block__text.strong_members .block__head .under-paragraph {
+  margin: 30px 0 60px 0;
+  text-align: center;
 }
 
 .wrapper {
