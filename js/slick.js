@@ -48,8 +48,8 @@
                 nextArrow: '<button class="slick-next" aria-label="Next" type="button">Next</button>',
                 autoplay: false,
                 autoplaySpeed: 3000,
-                centerMode: false,
-                centerPadding: '50px',
+                centerMode: true,
+                centerPadding: '40px',
                 cssEase: 'ease',
                 customPaging: function(slider, i) {
                     return $('<button type="button" />').text(i + 1);
@@ -60,22 +60,35 @@
                 easing: 'linear',
                 edgeFriction: 0.35,
                 fade: false,
-                focusOnSelect: false,
+                focusOnSelect: true,
                 focusOnChange: false,
                 infinite: true,
-                initialSlide: 0,
+                initialSlide: 3,
                 lazyLoad: 'ondemand',
                 mobileFirst: false,
                 pauseOnHover: true,
                 pauseOnFocus: true,
                 pauseOnDotsHover: false,
                 respondTo: 'window',
-                responsive: null,
+                responsive: [
+                    {
+                    breakpoint: 1023,
+                    settings: {
+                        slidesToShow: 2,
+                    }
+                    },
+                    {
+                    breakpoint: 800,
+                    settings: {
+                        slidesToShow: 1,
+                    }
+                    }
+                ],
                 rows: 1,
                 rtl: false,
                 slide: '',
                 slidesPerRow: 1,
-                slidesToShow: 1,
+                slidesToShow: 3,
                 slidesToScroll: 1,
                 speed: 500,
                 swipe: true,
@@ -122,7 +135,7 @@
 
             $.extend(_, _.initials);
 
-            _.activeBreakpoint = null;
+            _.activeBreakpoint = true;
             _.animType = null;
             _.animProp = null;
             _.breakpoints = [];
