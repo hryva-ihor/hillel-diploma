@@ -614,8 +614,6 @@ div.block__portfolio .block__text .block__head .under-paragraph {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin: 145px 0 220px 0;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
 }
 
 .strategy {
@@ -658,6 +656,11 @@ div.block__portfolio .block__text .block__head .under-paragraph {
 .media_bg-img {
   height: 100%;
   width: 500px;
+}
+
+.media__video {
+  width: 500px;
+  height: 300px;
 }
 
 .block__text.strong_members {
@@ -724,8 +727,8 @@ div.block__text.strong_members .block__head .under-paragraph {
   min-width: 470px;
   padding: 30px;
   background: #FFFFFF;
-  -webkit-box-shadow: 0px 24px 48px rgba(0, 17, 86, 0.0799083);
-          box-shadow: 0px 24px 48px rgba(0, 17, 86, 0.0799083);
+  -webkit-box-shadow: 5px 24px 48px rgba(0, 17, 86, 0.15);
+          box-shadow: 5px 24px 48px rgba(0, 17, 86, 0.15);
   border-radius: 8px;
 }
 
@@ -743,6 +746,7 @@ div.reviews > p.block__head-paragraph.under-paragraph {
   background: #F07566;
   border-radius: 50%;
   display: block;
+  z-index: 10;
 }
 
 .carousel.carousel_reviews .slick-prev {
@@ -756,11 +760,12 @@ div.reviews > p.block__head-paragraph.under-paragraph {
 .carousel.carousel_reviews .slick-prev:before,
 .carousel.carousel_reviews .slick-next:before {
   font-family: 'slick';
-  font-size: 40px;
+  font-size: 30px;
   line-height: 1;
-  margin-top: -10px;
+  margin-top: -7px;
   opacity: 1;
   color: white;
+  vertical-align: middle;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   display: block;
