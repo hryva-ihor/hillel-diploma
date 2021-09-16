@@ -107,9 +107,9 @@
   color: #4db282;
   font-size: 48px;
   line-height: 48px;
-  position: relative;
-  left: 25px;
-  top: 25px;
+  position: absolute;
+  right: 0;
+  top: -50px;
 }
 .icon-rocket:before {
   content: "\e90b";
