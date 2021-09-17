@@ -72,13 +72,14 @@
                 respondTo: 'window',
                 responsive: [
                     {
-                    breakpoint: 1023,
-                    settings: {
-                        slidesToShow: 2,
-                    }
-                    },
+                        breakpoint: 1150,
+                        settings: {
+                            slidesToShow: 2,
+                        }
+                        },
+                
                     {
-                    breakpoint: 800,
+                    breakpoint: 820,
                     settings: {
                         slidesToShow: 1,
                     }

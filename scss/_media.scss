@@ -1,0 +1,119 @@
+@media screen and (max-width: 1200px){
+    // ..............................................................
+    // ...................................... block__portfolio-cards
+    // ........................................................
+    .cards__photo{
+        width: 500px;
+    }
+    // ...............................................................
+    // ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,block__we_build-pro-busines
+    // ......................................................................
+    .we-build-pro__diagram{
+        width: 460px;
+    }
+    .we-build-pro__yellow_bg{
+        width: 400px;
+    }
+    .block__we-build-pro{
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .wrapper{
+        padding: 0 20px 0 20px;
+    }
+        // ...............................................................
+    // ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,block__we_build-pro-busines
+    // ......................................................................
+    .we-build-pro__diagram{
+        width: 420px;
+        margin-right: 10px;
+    }
+    .we-build-pro__yellow_bg{
+        width: 360px;
+    }
+    .block__we-build-pro .block__text{
+        margin-right: 20px;
+    }
+            // ...............................................................
+    // ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,    _block__header
+    // ......................................................................
+
+    .header__nav{
+        display: none
+    }
+    .header.menu-open .header__nav{
+        display: block;
+        // background-color: rgba(240, 118, 102, 0.349);
+    }
+    .header.menu-open .nav__item-list{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 100px;
+        left: -120px;
+        &::after{
+            content: '';
+            position: absolute;
+            top: -45px;
+            left: -5px;
+            width: 120px;
+            height: 210px;
+            background-color: rgba(240, 118, 102, 0.212);
+
+        }
+    }
+    .nav-button{
+        position: relative;
+        right: 100px;
+    }
+    .burger-icon{
+        display: block;
+        right: 5px;
+        top: 15px;
+    }
+        // ...............................................................
+    // ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,_block__scs
+    // ......................................................................
+    .scs__diagram{
+        width: 400px;
+    }
+
+        // ............................
+    // ............ block__portfolio-cards
+    // ...................................
+    .cards__photo{
+        max-width: 480px;
+    }
+    // ...............................................................
+    // ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,   _block__support
+    // ......................................................................
+    .support__block {
+        padding: 25px;
+        background-color: #ffffff;
+        max-width: 220px;
+        width: 100%;
+    }
+        // ...............................................................
+    // ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,   "_block__strategy";
+    // ......................................................................
+    .strategy .block__media {
+        margin-left: 10px;
+    }
+    .strategy .block__text {
+        max-width: 400px;
+    }
+    .strategy{
+        padding: 0px;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .logo_desctop {
+        display: none;
+    }
+    .logo_mobile {
+        display: block;
+    }
+}

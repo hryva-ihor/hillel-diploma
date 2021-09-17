@@ -1,17 +1,18 @@
 @import "_nullstyle";
-@import "_header";
-@import "_main";
+@import "_block__header";
+@import "_block__main";
 @import "_block__creative-diagram";
 @import "_block__we_build_pro";
-@import "_support";
-@import "_scs";
-@import "_portfolio";
+@import "_block__support";
+@import "_block__scs";
+@import "_block__portfolio";
 @import "_block__portfolio-cards";
-@import "_company";
-@import "_strategy";
-@import "_strong_members";
-@import "_reviews";
-@import "_footer";
+@import "_block__company";
+@import "_block__strategy";
+@import "_block__strong_members";
+@import "_block__reviews";
+@import "_block__footer";
+@import "_media";
 // ......................................
 // font-family: 'Hind Siliguri', sans-serif;
 // font-family: 'Work Sans', sans-serif;
