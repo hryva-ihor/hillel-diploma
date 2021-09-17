@@ -771,6 +771,7 @@ div.block__text.strong_members .block__head .under-paragraph {
 }
 
 .members__cards__title {
+  padding: 0 15px;
   margin-top: 25px;
   font-family: 'Hind Siliguri', sans-serif;
   font-style: normal;
@@ -855,6 +856,13 @@ div.reviews > p.block__head-paragraph.under-paragraph {
 
 .block__head.reviews__mod div:last-child {
   margin-top: 0px;
+}
+
+.wrapper-content.your_next_project__mod {
+  max-width: 1440px;
+  width: 100%;
+  background-color: #F07566;
+  margin: auto -135px;
 }
 
 @media screen and (max-width: 1200px) {
