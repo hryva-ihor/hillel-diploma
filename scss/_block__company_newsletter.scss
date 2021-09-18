@@ -1,0 +1,43 @@
+.wrapper-content.company_newsletter{
+    margin-top: 110px;
+}
+.company_newsletter {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1170px;
+    width: 100%;
+}
+.block__head {
+}
+.block__head-title {
+}
+.input__button {
+    max-width: 500px;
+}
+.form {
+    position: relative;
+    display: flex;
+    .button{
+        margin-top:0;
+        margin-left: 46px;
+    }
+}
+.label {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    position: absolute;
+    left: 0;
+    top: -20px;
+}
+.input__area {
+    width: 270px;
+    height: 48px;
+    border: 1px solid #DADADA;
+    box-sizing: border-box;
+    border-radius: 6px;
+
+}

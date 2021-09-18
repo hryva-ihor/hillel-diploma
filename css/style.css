@@ -862,7 +862,108 @@ div.reviews > p.block__head-paragraph.under-paragraph {
   max-width: 1440px;
   width: 100%;
   background-color: #F07566;
-  margin: auto -135px;
+  margin: 240px 0 0 0;
+  padding: 80px 100px;
+  position: relative;
+}
+
+.your_next_project {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.your_next_project__title {
+  max-width: 260px;
+}
+
+.your_next_project__title h2 {
+  font-family: 'Hind Siliguri', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: -1px;
+  color: #FFFFFF;
+}
+
+.block__button.your_next_project__mod .button {
+  background-color: #FBD34B;
+  color: black;
+}
+
+.your_next_project__paragraph {
+  max-width: 470px;
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 32px;
+  color: #FFFFFF;
+}
+
+.your_next_project__art {
+  position: absolute;
+  bottom: -110px;
+  left: 50%;
+  margin-right: -50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.wrapper-content.company_newsletter {
+  margin-top: 110px;
+}
+
+.company_newsletter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 1170px;
+  width: 100%;
+}
+
+.input__button {
+  max-width: 500px;
+}
+
+.form {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.form .button {
+  margin-top: 0;
+  margin-left: 46px;
+}
+
+.label {
+  font-family: 'Hind Siliguri', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  text-transform: uppercase;
+  position: absolute;
+  left: 0;
+  top: -20px;
+}
+
+.input__area {
+  width: 270px;
+  height: 48px;
+  border: 1px solid #DADADA;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 6px;
 }
 
 @media screen and (max-width: 1200px) {
