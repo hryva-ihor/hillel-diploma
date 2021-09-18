@@ -57,11 +57,11 @@
 .icon-facebook:before {
   content: "\e904";
   color: #fff;
-  font-size: 48px;
-  line-height: 48px;
+  font-size: 16px;
+  line-height: 16px;
   position: relative;
-  left: 25px;
-  top: 25px;
+  left: 17px;
+  top: 15px;
 }
 .icon-grafff:before {
   content: "\e905";
@@ -72,11 +72,11 @@
 .icon-instagram:before {
   content: "\e906";
   color: #fff;
-  font-size: 48px;
-  line-height: 48px;
+  font-size: 25px;
+  line-height: 25px;
   position: relative;
-  left: 25px;
-  top: 25px;
+  left: 12px;
+  top: 15px;
 }
 .icon-lamp:before {
   content: "\e907";
@@ -132,9 +132,9 @@
 .icon-twitter:before {
   content: "\e90d";
   color: #fff;
-  font-size: 48px;
-  line-height: 48px;
+  font-size: 16px;
+  line-height: 16px;
   position: relative;
-  left: 25px;
-  top: 25px;
+  left: 17px;
+  top: 15px;
 }
