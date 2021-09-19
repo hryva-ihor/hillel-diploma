@@ -27,9 +27,9 @@
             <div class="header__logo">
               <a href="#"><img class="logo_desctop" src="img/CMP.svg" alt="ChMP_logo"><img class="logo_mobile" src="img/CMPmini.svg" alt="ChMP_logo"></a>
             </div>
-            <div class="header__nav">
-              <nav class="nav__item">
-                <ul class="nav__item-list">
+            <div id="nav"  class="header__nav navigation">
+              <nav class="nav__item navigation__inner">
+                <ul class="nav__item-list menu">
                   <li class="item-list"><a class="nav-link" href="#">About</a></li>
                   <li class="item-list"><a class="nav-link" href="#">Portfolio</a></li>
                   <li class="item-list"><a class="nav-link" href="#">Service</a></li>
@@ -39,8 +39,8 @@
               </nav>
             </div>
           </div>
-          <div class="header__nav-button">
-            <button class="nav-button">Button</button>
+          <div class="header__nav-button gradient-wrap">
+            <button id="show" class="nav-button  gradient-btn">Button</button>
           </div>
         </header>
       </div>
@@ -54,8 +54,8 @@
                 <div><img src="img/creativeBlock/Bitmap.png" alt="underline"></div>
                 <p>The sky was cloudless and of a deep dark blue the spectacle before us was indeed sublime.</p>
               </div>
-              <div class="block__button">
-                <button class="button">Button</button>
+              <div class="block__button ">
+                <button class="button btnfos-4">Button</button>
               </div>
             </div>
             <div class="creative__diagram">
@@ -124,8 +124,10 @@
                   <h2 class="block__head-title">Smart Complex<br>Solutions</h2>
                 </div>
                 <p class="block__head-paragraph">Stars had ceased to twinkle the same illusion which lifts the horizon of the sea to the level of the spectator on a hillside, the sable cloud beneath was dished out.</p>
-                <p class="block__head-paragraph second-paragraph">Modern Technology</p>
-                <p class="block__head-paragraph under-paragraph">The sky was cloudless and of a deep dark blue the spectacle before us was indeed sublime.</p>
+                <div class="shadow__paragraph"> 
+                  <p class="block__head-paragraph second-paragraph">Modern Technology</p>
+                  <p class="block__head-paragraph under-paragraph">The sky was cloudless and of a deep dark blue the spectacle before us was indeed sublime.</p>
+                </div>
               </div>
             </div>
             <div class="scs__diagram">
@@ -133,6 +135,7 @@
               <div class="scs__icon_creative-diagram"><span class="icon-note"></span></div>
               <div class="scs__red_box"></div>
               <div><img class="scs__diagram_schedule" src="img/scs/graph.png" alt="graph"></div>
+            </div>
           </div>
         </div>
         <div class="main-content">
@@ -227,12 +230,16 @@
         </div>
         <div class="main-content">
           <div class="company">
-            <div class="company__logo"><img src="img/company/Bitmap.png" alt="company__logo" ></div>
-            <div class="company__logo"><img src="img/company/Bitmap2.png" alt="company__logo" class="company__logo"></div>
-            <div class="company__logo"><img src="img/company/Bitmap3.png" alt="company__logo" class="company__logo"></div>
-            <div class="company__logo"><img src="img/company/Bitmap4.png" alt="company__logo" class="company__logo"></div>
-            <div class="company__logo"><img src="img/company/Bitmap5.png" alt="company__logo" class="company__logo"></div>
-            <div class="company__logo"><img src="img/company/Bitmap6.png" alt="company__logo" class="company__logo"></div>
+            <div>
+              <div class="company__logo"><img src="img/company/Bitmap.png" alt="company__logo"></div>
+              <div class="company__logo"><img src="img/company/Bitmap2.png" alt="company__logo"></div>
+              <div class="company__logo"><img src="img/company/Bitmap3.png" alt="company__logo"></div>
+            </div>
+            <div>
+              <div class="company__logo"><img src="img/company/Bitmap4.png" alt="company__logo"></div>
+              <div class="company__logo"><img src="img/company/Bitmap5.png" alt="company__logo"></div>
+              <div class="company__logo"><img src="img/company/Bitmap6.png" alt="company__logo"></div>
+            </div>
           </div>
         </div>
         <div class="main-content">
@@ -248,7 +255,7 @@
             <div class="block__text">
               <div class="block__head">
                 <div>
-                  <h2 class="block__head-title strategy_title">Strategy, technology and design</h2>
+                  <h2 class="block__head-title strategy_title">Strategy, technology<br> and design</h2>
                 </div>
                 <p class="block__head-paragraph">Apparently we had reached a great height in the atmosphere, for the sky was a dead black.</p>
               </div>
@@ -479,31 +486,31 @@
           <div class="footer__logo">
             <a href="#"><img src="img/CMPfooter.svg" alt="company__logo"></a>
           </div>
-          <div class="footer menu">
+          <div class="footer ">
             <h3>Menu</h3>
-            <ul class="footer__lists menu">
-              <li class="menu_list">About</li>
-              <li class="menu_list">Portfolio</li>
-              <li class="menu_list">Service</li>
-              <li class="menu_list">Blog</li>
-              <li class="menu_list">Contact</li>
+            <ul class="footer__lists">
+              <li class="menu_list"><a href="#">About</a></li>
+              <li class="menu_list"><a href="#">Portfolio</a></li>
+              <li class="menu_list"><a href="#">Service</a></li>
+              <li class="menu_list"><a href="#">Blog</a></li>
+              <li class="menu_list"><a href="#">Contact</a></li>
             </ul>
           </div>
-          <div class="footer service">
+          <div class="footer">
             <h3>Service</h3>
-            <ul class="footer__lists service">
-              <li class="menu_list">Consulting</li>
-              <li class="menu_list">Planning</li>
-              <li class="menu_list">Support</li>
-              <li class="menu_list">Cooperation</li>
+            <ul class="footer__lists ">
+              <li class="menu_list"><a href="#">Consulting</a></li>
+              <li class="menu_list"><a href="#">Planning</a></li>
+              <li class="menu_list"><a href="#">Support</a></li>
+              <li class="menu_list"><a href="#">Cooperation</a></li>
             </ul>
           </div>
-          <div class="footer social">
+          <div class="footer ">
             <h3>Social</h3>
             <div class="social__logo_mod">
-              <div class="social__logo icon-facebook"><a href="#"></a></div>
-              <div class="social__logo icon-twitter"><a href="#"></a></div>
-              <div class="social__logo icon-instagram"><a href="#"></a></div>
+              <a href="https://www.facebook.com/"><div class="social__logo icon-facebook"></div></a>
+              <a href="https://twitter.com/?lang=ru"><div class="social__logo icon-twitter"></div></a>
+              <a href="https://www.instagram.com/?hl=ru"><div class="social__logo icon-instagram"></div></a>
             </div>
           </div>
         </div>
@@ -512,8 +519,8 @@
             <p>Copyright © 2020 Laaqiq. All Rights Reserved.</p>
           </div>
           <div class="privat__policy">
-            <p>Terms of Use</p>
-            <p>Privacy Policy</p>
+            <a href="#">Terms of Use</a>
+            <a href="#">Privacy Policy</a>
           </div>
         </div>
       </footer>
@@ -522,6 +529,7 @@
     <script src="js/jquery-3.6.0.js"></script>
     <script src="js/slick.js"></script>
     <script src="js/topbutton.js"></script>
+    <script src="js/nav.js"></script>
     <script>
       $(document).ready(function () {
         $('.carousel').slick({
@@ -543,6 +551,7 @@
         arrows: true,
         responsive:false,
       });
+
     </script>
   </body>
 </html>

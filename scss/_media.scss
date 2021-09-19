@@ -6,8 +6,9 @@
         width: 500px;
     }
     // ...............................................................
-    // ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,block__we_build-pro-busines
+    // ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,.block__creative-diagram
     // ......................................................................
+
     .we-build-pro__diagram{
         width: 460px;
     }
@@ -39,9 +40,18 @@
             // ...............................................................
     // ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,    _block__header
     // ......................................................................
+    .menu li {
+        margin-top: 0px;
+    }   
+
+    .header__nav-button{
+        display: none;
+    }
+
 
     .header__nav{
-        display: none
+        display: none;
+        width: 100%;
     }
     .header.menu-open .header__nav{
         display: block;
@@ -49,20 +59,11 @@
     }
     .header.menu-open .nav__item-list{
         display: flex;
-        flex-direction: column;
         position: relative;
-        top: 100px;
+        top: 50px;
         left: -120px;
-        &::after{
-            content: '';
-            position: absolute;
-            top: -45px;
-            left: -5px;
-            width: 120px;
-            height: 210px;
-            background-color: rgba(240, 118, 102, 0.212);
+        width: 100%;
 
-        }
     }
     .nav-button{
         position: relative;
@@ -110,10 +111,335 @@
 }
 
 @media screen and (max-width: 576px){
+    .yellow-rectangle-bg::after{
+        display: none;
+    }
+
+    // ............................................
+    // ..............................."icomoon";
+    // .............................................
+    .icon-combined-shape:before,
+    .icon-triangle:before,
+    .icon-combined-shape:before,
+    .icon-note:before,
+    .icon-note2:before,
+    .icon-rocket:before,
+    .icon-shape:before{
+        font-size: 35px;
+        line-height: 35px;
+        position: relative;
+        left: 13px;
+        top: 13px;
+    }
+
+      .icon-arrow:before {
+        content: "\e901";
+        color: #4db282;
+        font-size: 65px;
+        line-height: 65px;
+      }
+      .icon-brain:before {
+        content: "\e902";
+        color: #4db282;
+        font-size: 65px;
+        line-height: 65px;
+      }
+
+      .icon-facebook:before {
+        content: "\e904";
+        color: #fff;
+        font-size: 16px;
+        line-height: 16px;
+        position: relative;
+        left: 17px;
+        top: 15px;
+      }
+      .icon-grafff:before {
+        content: "\e905";
+        color: #4db282;
+        font-size: 65px;
+        line-height: 65px;
+      }
+      .icon-instagram:before {
+        content: "\e906";
+        color: #fff;
+        font-size: 25px;
+        line-height: 25px;
+        position: relative;
+        left: 12px;
+        top: 15px;
+      }
+      .icon-lamp:before {
+        content: "\e907";
+        color: #4db282;
+        font-size: 65px;
+        line-height: 65px;
+      }
+      .icon-quotes:before {
+        content: "\e90a";
+        color: #4db282;
+        font-size: 48px;
+        line-height: 48px;
+        position: absolute;
+        right: 0;
+        top: -35px;
+      }
+      .icon-twitter:before {
+        content: "\e90d";
+        color: #fff;
+        font-size: 16px;
+        line-height: 16px;
+        position: relative;
+        left: 17px;
+        top: 15px;
+      }
+    // /...............................................
+    // .................................._block__header
+    // ..................................................
+    .header.menu-open .burger-icon{
+        position: fixed;
+        right: 25px;
+    }
     .logo_desctop {
         display: none;
     }
     .logo_mobile {
         display: block;
     }
+    .nav-button{
+        margin-left: 20px;
+    }
+    .nav__item-list{
+        flex-direction: column;
+        z-index: 15;
+
+    }
+    .nav__item{
+        position: fixed;
+        top: 0px;
+        margin-left: 25px;
+        z-index: 15;
+        &:before {
+                content: '';
+                display: block;
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100vh;
+                height: 100vh;
+                background-color: brown;
+                z-index: 10;
+
+        }
+    }
+    .menu li:not(:last-child) {
+        margin-right: 0px;
+    }
+    .header.menu-open .header__nav-button{
+        display: block;
+        z-index: 15;
+        position: fixed;
+        left: 100px;
+        top: 310px;
+    }
+// ...............................................................
+// ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,block__creative-diagram
+// ......................................................................
+    .block__head div img{
+        width: 70%;
+        height: 70%;
+    }
+    .block__creative-diagram {
+        margin-top: 0px;
+        flex-direction: column-reverse;
+    }
+
+    .creative__diagram {
+        position: relative;
+        width: 290px;
+        height: 300px;
+        border-radius: 70px 4px 4px 4px;
+        margin: 20px 0 40px 20px;
+    }
+
+    .creative__diagram_schedule {
+        width: 130px;
+        left: -10px;
+        bottom: -40px;
+        border-radius: 5px;
+
+    }
+    .creative__icon_creative-diagram {
+        width: 60px;
+        height: 60px;
+        left: -30px;
+        top: 60px;
+    }
+    .creative__red_box {
+        width: 90px;
+        height: 120px;
+        top: 100px;
+        right: -20px;
+        border-radius: 6px;
+    }
+    .block__button .button {
+        width: 154px;
+    }
+// ...............................................................
+// ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,block__we_build-pro-busines
+// ......................................................................
+    .block__we-build-pro {
+        flex-direction: column-reverse;
+    }
+
+    .block__text {
+        p {
+            margin-top: 50px;
+        }
+    }
+
+
+    .we-build-pro__diagram {
+        width: 310px;
+        height: 300px;
+        border-radius: 4px 70px 4px 4px;
+        margin-left: 20px;
+    }
+    .we-build-pro__diagram_schedule {
+        width: 80px;
+        height: 80px;
+        right: -10px;
+        bottom: -30px;
+        border-radius: 5px;
+    }
+    .we-build-pro__icon_creative-diagram {
+        width: 60px;
+        height: 60px;
+        left: -30px;
+        top: 60px;
+    }
+    .we-build-pro__red_box {
+        width: 80px;
+        height: 100px;
+        left: -20px;
+        bottom: -20px;
+        border-radius: 6px;
+    }
+    .we-build-pro__yellow_bg {
+        width: 300px;
+        height: 200px;
+        bottom: -10px;
+        left: -10px;
+    }
+    // ...............................................................
+// ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,.support__block
+// ......................................................................
+    .support{
+        flex-direction: column;
+        align-items: center;
+    }
+    .support__block{
+        margin-top: 30px;
+    }
+    .grey-rectangle-bg::before {
+        display: none;
+    }
+        // ...............................................................
+// ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,      scs__block
+// ......................................................................
+    .main-content.scs{
+        margin-top: 0px;
+    }
+    .block.block__scs{
+        flex-direction: column;
+    }
+    .scs__diagram {
+        margin-left: 20px;
+        width: 300px;
+        height: 300px;
+        border-radius: 70px 4px 4px 4px;
+        margin-right: 0px;
+    }
+    .scs__diagram_schedule {
+        width: 150px;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        bottom: -80px;
+        border-radius: 6px;
+    }
+    .scs__icon_creative-diagram {
+        width: 60px;
+        height: 60px;
+        left: -30px;
+        top: 60px;
+    }
+    .scs__red_box {
+        width: 130px;
+        height: 80px;
+        top: -20px;
+        right: -20px;
+        border-radius: 6px;
+    }
+    .scs__yellow_bg{
+        width: 70px;
+        height: 300px;
+        bottom: -8px;
+        right: -8px;
+    }
+            // ...............................................................
+// ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, .block__portfolio-cards
+// ......................................................................
+    .block__portfolio-cards {
+        flex-direction: column;
+    }
+    div > p.block__head-paragraph {
+        font-family: "Work Sans", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 32px;
+    }
+    .cards__photo{
+        width: 100%;
+        max-height: 220px;
+    }
+ // ...............................................................
+// ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, .block__company
+// ......................................................................
+    .company{
+        align-items: center;
+    }
+    .company__logo{
+        margin-bottom: 50px;
+        display: flex;
+        justify-content: center;
+    }
+     // ...............................................................
+// ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, .block__.strategy  .block__media 
+// ......................................................................
+    .strategy {
+        height: 100%;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        .block__media{
+            margin-left: 0;
+        }
+    }
+    .media__video{
+        width: 300px;
+        height: 180px;
+    }
+    .block__head-title.strategy_title{
+        font-size: 40px;
+        line-height: 48px;
+    }
+    .strategy .block__text p {
+        margin-top: 0px;
+    }
+    .media_bg {
+        display: none;
+    }
+
 }

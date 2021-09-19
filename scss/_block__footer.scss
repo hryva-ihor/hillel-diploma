@@ -24,6 +24,9 @@
         color: #F07566;
         margin-bottom: 32px;
     }
+    li a{
+        color: #FFFFFF;
+    }
 }
 .menu_list {
     font-family: 'Work Sans', sans-serif;
@@ -31,7 +34,6 @@
     font-weight: normal;
     font-size: 16px;
     line-height: 32px;
-    color: #FFFFFF;
 }
 .social {
     margin-right: 110px;
@@ -39,6 +41,52 @@
 .social__logo_mod{
     display: flex;
 }
+
+
+.social__logo:hover{
+    cursor: pointer;
+    animation: 1200ms ease 0s normal none 1 running shake;
+    
+}
+@keyframes shake {
+0% {
+    transform: rotateZ(0deg);
+}
+10% {
+    transform: rotateZ(-30deg);
+}
+20% {
+    transform: rotateZ(15deg);
+}
+30% {
+    transform: rotateZ(-10deg);
+}
+40% {
+    transform: rotateZ(7.5deg);
+}
+50% {
+    transform: rotateZ(-6deg);
+}
+60% {
+    transform: rotateZ(5deg);
+}
+70% {
+    transform: rotateZ(-4.28571deg);
+}
+80% {
+    transform: rotateZ(3.75deg);
+}
+90% {
+    transform: rotateZ(-3.33333deg);
+}
+100% {
+    transform: rotateZ(0deg);
+}
+}
+
+
+
+
 .social__logo {
     margin-right: 8px;
     width: 48px;
@@ -73,5 +121,7 @@
     font-weight: normal;
     font-size: 16px;
     line-height: 32px;
-    color: #FFFFFF;
+    a{
+        color: #FFFFFF;
+    }
 }

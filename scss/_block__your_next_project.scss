@@ -45,3 +45,19 @@
     transform: translate(-50%, -50%);
 
 }
+
+.your_next_project .button {
+    border: 1px solid rgb(240, 219, 102);
+    box-shadow: 0px 5px 10px rgb(240, 219, 102);
+    transition: all .3s;
+    cursor: pointer;
+    border-bottom: 2px solid rgba(231, 240, 102, 0.459);
+    &:hover{
+        box-shadow: 0px 15px 25px -5px rgb(231, 240, 102);
+        transform: scale(1.03);
+    }
+    &:active{        
+        box-shadow: 0px 4px 8px rgb(240, 219, 102);
+        transform: scale(.98);
+    }
+}

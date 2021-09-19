@@ -31,13 +31,17 @@ div > p.block__head-paragraph.under-paragraph{
     height: 24px;
     margin-right: 15px;
 }
+.shadow__paragraph{
+    box-shadow: 0px 24px 48px rgba(0, 17, 86, 0.0799083);
+    border-radius: 8px;
+}
 .scs__diagram {
+    margin: 70px 40px 50px 0;
     position: relative;
     width: 460px;
     height: 480px;
     background-color: #D8D8D8;
     border-radius: 100px 8px 8px 8px;
-    margin-right: 40px;
 }
 .scs__diagram_schedule {
     width: 216px;
