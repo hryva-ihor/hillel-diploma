@@ -1,6 +1,6 @@
 .footer__mod {
     max-width: 1440px;
-    margin: 130px auto 0;
+    margin: 0 auto;
     background-color: #333333;
 }
 .footer-content {
@@ -10,7 +10,7 @@
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid #494949;;
+    border-bottom: 1px solid #494949;
 }
 .footer {
     h3{
@@ -27,6 +27,11 @@
     li a{
         color: #FFFFFF;
     }
+    &:last-child{
+        content: '';
+        margin-right: 110px;
+        
+    }
 }
 .menu_list {
     font-family: 'Work Sans', sans-serif;
@@ -34,9 +39,6 @@
     font-weight: normal;
     font-size: 16px;
     line-height: 32px;
-}
-.social {
-    margin-right: 110px;
 }
 .social__logo_mod{
     display: flex;
@@ -96,11 +98,12 @@
     position: relative;
 }
 .footer__copyrite {
+    padding: 20px;
     max-width: 1170px;
+    height: 145px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    height: 145px;
     align-items: center;
 }
 .copyrite {

@@ -55,7 +55,6 @@
     }
     .header.menu-open .header__nav{
         display: block;
-        // background-color: rgba(240, 118, 102, 0.349);
     }
     .header.menu-open .nav__item-list{
         display: flex;
@@ -107,6 +106,12 @@
     }
     .strategy{
         padding: 0px;
+    }
+        // ...............................................................
+    // ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,    .footer-content
+    // ......................................................................
+    .footer-content{
+        padding: 20px;
     }
 }
 
@@ -408,13 +413,17 @@
 // ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, .block__company
 // ......................................................................
     .company{
-        align-items: center;
+        justify-content: space-around;
+        div{
+            display: flex;
+            flex-direction: column;
+            max-width: 120px;
+        }
+        & .company__logo{
+            margin-bottom: 50px;
+        }
     }
-    .company__logo{
-        margin-bottom: 50px;
-        display: flex;
-        justify-content: center;
-    }
+
      // ...............................................................
 // ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, .block__.strategy  .block__media 
 // ......................................................................
@@ -441,5 +450,92 @@
     .media_bg {
         display: none;
     }
+         // ...............................................................
+// ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, .block__.strategy  .block__media 
+// ......................................................................
+    .block__reviews{
+        flex-direction: column;
+        .we-build-pro__diagram{
+            margin-bottom: 40px;
+        }
+        .block__text p {
+            margin-top: 0px;
+        }
+    }
+    .carousel.carousel_reviews{
+        max-width: 320px;
+    }
+    .reviews{
+        min-width: 300px;
+
+    }
+    .icon-quotes:before {
+        top: -38px;
+    }
+    .carousel.carousel_reviews .slick-prev{
+        left: 38%;
+        margin-top: 30px;
+    }
+    .carousel.carousel_reviews .slick-next{
+        right: 40%;
+        margin-top: 30px;
+    }
+    .icon-quotes:before {
+        transform: scale(0.8);
+    }
+ // ...............................................................
+// ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, ..your_next_project 
+// ......................................................................
+    .your_next_project {
+        flex-direction: column;
+    }
+    .main-content.your_next_project__mod {
+        padding: 60px;
+    }
+    .your_next_project__title {
+        h2{
+            font-size: 40px;
+            line-height: 48px
+        }
+    }
+    .your_next_project__paragraph p{
+        margin: 60px 0 80px 0;
+    }
+    .your_next_project__art{
+        bottom: -140px;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%) scale(0.7);
+    
+    }
+ // ...............................................................
+// ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,     .company_newsletter
+// ......................................................................
+    .company_newsletter{
+        flex-direction: column;
+    }
+    .form {
+        flex-direction: column;
+        .button{
+            margin: 16px 0 0 0;
+        }
+    }
+     // ...............................................................
+// ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,    .footer-content
+// ......................................................................
+    .footer-content{
+        flex-direction: column;
+    }
+    .footer__copyrite{
+        flex-direction: column;
+        padding: 60px 30px 70px;
+        .copyrite p{
+            text-align: center;
+            max-width: 210px;
+            margin-bottom: 30px;
+        }
+    }
+
+
 
 }

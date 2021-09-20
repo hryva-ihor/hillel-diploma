@@ -1,5 +1,6 @@
 .main-content.company_newsletter{
     margin-top: 110px;
+    margin-bottom: 50px;
 }
 .company_newsletter {
     display: flex;
@@ -37,5 +38,17 @@
     border: 1px solid #DADADA;
     box-sizing: border-box;
     border-radius: 6px;
+    border: 1px solid #DADADA;
+    box-sizing: border-box;
+    border-radius: 6px;
+    &::placeholder{
+        padding-left: 10px;
+        font-family: 'Work Sans', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 32px;
+        color: rgba(51, 51, 51, 0.496405);
+    }
 
 }
