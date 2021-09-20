@@ -7,17 +7,18 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 1;
 }
-.header.yellow-rectangle-bg{
+.header{
     position: relative;
 }
-.yellow-rectangle-bg::after{
-    content: url(/img/rectangle/Rectangle2.png);
-    position: absolute;
-    top: 0;
-    right: 0;
-    z-index: -2;
-}
+// .yellow-rectangle-bg::after{
+//     content: url(/img/rectangle/Rectangle2.png);
+//     position: absolute;
+//     top: 0;
+//     right: 0;
+//     z-index: -10;
+// }
 
 // /.......................
 // .,..........................menu list stile
@@ -30,6 +31,7 @@
     max-width: 720px;
     margin: 0 auto;
     list-style: none;
+    z-index: 1;
 }
 .menu li {
     margin-top: 20px;

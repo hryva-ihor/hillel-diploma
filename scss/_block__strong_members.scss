@@ -10,22 +10,30 @@ div.block__text.strong_members .block__head .under-paragraph{
 }
 
 .members {
-    margin: 0 15px 230px 15px;
+    margin: 0 0 230px 0;
 }
 
 .members__cards {
+    background-color: white;
+    padding: 20px 15px;
     max-width: 370px;
     width: 100%;
     max-height: 448px;
     height: 100%;
-    margin: 10px;
+    border: 1px solid #E6EDF5;
+    box-sizing: border-box;
+    border-radius: 8px;
 }
-.members__cards__photo img {
-    max-width: 350px;
-    max-height: 200px;
+.members__cards__photo{
+        img {
+        width: 340px;
+        height: 320px;
+        display: block;
+        border-radius: 8px 8px 50px 8px;
+
+    }
 }
 .members__cards__title {
-    padding: 0 15px;
     margin-top: 25px;
     font-family: 'Hind Siliguri', sans-serif;
     font-style: normal;

@@ -83,7 +83,16 @@
                     settings: {
                         slidesToShow: 1,
                     }
+                    },
+                    {
+                        breakpoint: 400,
+                        settings: {
+                            centerMode: false,
+                            slidesPerRow: 1,
+                            slidesToShow: 1,
                     }
+                    },
+
                 ],
                 rows: 1,
                 rtl: false,

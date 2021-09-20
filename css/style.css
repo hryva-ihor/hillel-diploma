@@ -90,18 +90,11 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  z-index: 1;
 }
 
-.header.yellow-rectangle-bg {
+.header {
   position: relative;
-}
-
-.yellow-rectangle-bg::after {
-  content: url(/img/rectangle/Rectangle2.png);
-  position: absolute;
-  top: 0;
-  right: 0;
-  z-index: -2;
 }
 
 .menu {
@@ -117,6 +110,7 @@ h1, h2, h3, h4, h5, h6 {
   max-width: 720px;
   margin: 0 auto;
   list-style: none;
+  z-index: 1;
 }
 
 .menu li {
@@ -887,24 +881,30 @@ div.block__text.strong_members .block__head .under-paragraph {
 }
 
 .members {
-  margin: 0 15px 230px 15px;
+  margin: 0 0 230px 0;
 }
 
 .members__cards {
+  background-color: white;
+  padding: 20px 15px;
   max-width: 370px;
   width: 100%;
   max-height: 448px;
   height: 100%;
-  margin: 10px;
+  border: 1px solid #E6EDF5;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 8px;
 }
 
 .members__cards__photo img {
-  max-width: 350px;
-  max-height: 200px;
+  width: 340px;
+  height: 320px;
+  display: block;
+  border-radius: 8px 8px 50px 8px;
 }
 
 .members__cards__title {
-  padding: 0 15px;
   margin-top: 25px;
   font-family: 'Hind Siliguri', sans-serif;
   font-style: normal;
@@ -1877,11 +1877,26 @@ div.reviews > p.block__head-paragraph.under-paragraph {
     max-width: 210px;
     margin-bottom: 30px;
   }
+  .footer__logo {
+    margin: 60px 0;
+  }
+  .footer h3 {
+    margin-top: 65px;
+  }
+  .social__logo_mod {
+    margin-bottom: 80px;
+  }
+  .members__cards__photo img {
+    width: 100%;
+    display: block;
+    border-radius: 8px 8px 50px 8px;
+  }
+  .members__cards {
+    max-width: 335px;
+  }
 }
 
 .wrapper {
-  max-width: 1440px;
-  margin: 0 auto;
   background-color: #f3f3f3;
 }
 

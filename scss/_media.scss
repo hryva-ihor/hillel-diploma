@@ -535,7 +535,29 @@
             margin-bottom: 30px;
         }
     }
+    .footer__logo{
+        margin: 60px 0;
+    }
+    .footer h3{
+        margin-top: 65px;
+    }
+    .social__logo_mod{
+        margin-bottom: 80px;
+    }
+     // ...............................................................
+// ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,    members
+// ......................................................................
 
+    .members__cards__photo{
+        img {
+        width: 100%;
+        display: block;
+        border-radius: 8px 8px 50px 8px;
+        }
+    }
+    .members__cards {
 
+        max-width: 335px;
 
+    }
 }
