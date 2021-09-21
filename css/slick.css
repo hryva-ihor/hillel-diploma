@@ -135,6 +135,7 @@
 .carousel.carousel_reviews .slick-slide{
     box-shadow: -15px 16px 8px -5px rgba(34, 60, 80, 0.2);;
     border-radius: 8px;
+    opacity: 1; 
 }
 
 .carousel .slick-slide.slick-active{  
