@@ -1,24 +1,28 @@
-.header-content{    
-    max-width: 1170px;
-    margin: 0 auto;
-}
+
 .header {
     height: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 1;
-}
-.header{
+    max-width: 1170px;
+    margin: 0 auto;
     position: relative;
+    
 }
-// .yellow-rectangle-bg::after{
-//     content: url(/img/rectangle/Rectangle2.png);
-//     position: absolute;
-//     top: 0;
-//     right: 0;
-//     z-index: -10;
-// }
+.yellow-rectangle-bg::before{
+    content: '';
+    background-image: url(../img/rectangle/Rectangle2.png);
+    display: block;
+    width: 600px;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-position: right;
+    position: absolute;
+    top: 0;
+    right: -135px;
+    z-index: -50;
+    background-size: 100% 100%;
+}
 
 // /.......................
 // .,..........................menu list stile

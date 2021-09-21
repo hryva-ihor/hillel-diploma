@@ -23,10 +23,12 @@ div.block__text.strong_members .block__head .under-paragraph{
     border: 1px solid #E6EDF5;
     box-sizing: border-box;
     border-radius: 8px;
+    box-shadow: -1px 3px 8px 10px rgba(34, 60, 80, 0.32);
+    border-radius: 8px;  
 }
 .members__cards__photo{
         img {
-        width: 340px;
+        width: 100%;
         height: 320px;
         display: block;
         border-radius: 8px 8px 50px 8px;
@@ -40,6 +42,7 @@ div.block__text.strong_members .block__head .under-paragraph{
     font-weight: bold;
     font-size: 24px;
     line-height: 32px;
+    text-align: start;
 }
 .members__cards__under-title {
     font-family: 'Work Sans', sans-serif;

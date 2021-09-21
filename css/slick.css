@@ -125,22 +125,36 @@
 /* Слайд */
 /* .slick-slide{    box-shadow: -1px 3px 8px 10px rgba(34, 60, 80, 0.32);
     border-radius: 8px; */
+.carousel .slick-slide{
+    text-align: center;
+    margin: 10px;
+    opacity: 0.5;
+    
+    
+}
+.carousel.carousel_reviews .slick-slide{
+    box-shadow: -15px 16px 8px -5px rgba(34, 60, 80, 0.2);;
+    border-radius: 8px;
+}
 
-/* } */
-/* Слайд активный (показывается) */
-/* .slick-slide.slick-active{    box-shadow: -1px 3px 8px 10px rgba(34, 60, 80, 0.32);
-    border-radius: 8px; */
+.carousel .slick-slide.slick-active{  
+    opacity: 0.5;     
+    transition: transform 2s ease-in-out;} 
 
 /* } */
 /* Слайд основной */
-/* .slick-slide.slick-current{
-    box-shadow: -1px 3px 8px 10px rgba(34, 60, 80, 0.32);
-    border-radius: 8px; */
+.carousel .slick-slide.slick-current{
+    opacity: 1; 
+    transition: transform 2s ease-in-out;
 
-/* } */
-/* Слайд по центру */
-/* .slick-slide.slick-center{    box-shadow: -1px 3px 8px 10px rgba(34, 60, 80, 0.32);
-    border-radius: 8px; } */
+}
+
+/* Слайд по центру
+.carousel .slick-slide.slick-center {      box-shadow: -1px 3px 8px 10px rgba(34, 60, 80, 0.32);
+    border-radius: 8px;  
+
+
+} 
+
 /* Клонированный слайд */
-/* .slick-slide.slick-cloned{    box-shadow: -1px 3px 8px 10px rgba(34, 60, 80, 0.32);
-    border-radius: 8px;} */
+.slick-slide.slick-cloned{        opacity: 0.5;}

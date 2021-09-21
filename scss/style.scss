@@ -19,10 +19,15 @@
 // font-family: 'Hind Siliguri', sans-serif;
 // font-family: 'Work Sans', sans-serif;
 //
+body{
+    position: relative;
+}
 .wrapper{
     background-color: #f3f3f3;
+    position: relative;
+    z-index: -100;
 }
-.wrapper-content, .main-content {
+.main-content {
     max-width: 1170px;
     margin: 0 auto;
     
