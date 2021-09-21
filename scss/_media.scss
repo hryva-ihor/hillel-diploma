@@ -47,6 +47,13 @@
     .header__nav-button{
         display: none;
     }
+    .header.menu-open .header__nav-button{
+        display: block;
+        z-index: 15;
+        position: fixed;
+        left: 120px;
+        top: 100px;
+    }
 
 
     .header__nav{
