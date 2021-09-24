@@ -67,7 +67,7 @@
         display: flex;
         position: relative;
         top: 50px;
-        left: -120px;
+        left: -110px;
         width: 100%;
 
     }
@@ -142,20 +142,20 @@
         top: 13px;
     }
 
-      .icon-arrow:before {
+    .icon-arrow:before {
         content: "\e901";
         color: #4db282;
         font-size: 65px;
         line-height: 65px;
-      }
-      .icon-brain:before {
+    }
+    .icon-brain:before {
         content: "\e902";
         color: #4db282;
         font-size: 65px;
         line-height: 65px;
-      }
+    }
 
-      .icon-facebook:before {
+    .icon-facebook:before {
         content: "\e904";
         color: #fff;
         font-size: 16px;
@@ -163,14 +163,14 @@
         position: relative;
         left: 17px;
         top: 15px;
-      }
-      .icon-grafff:before {
+    }
+    .icon-grafff:before {
         content: "\e905";
         color: #4db282;
         font-size: 65px;
         line-height: 65px;
-      }
-      .icon-instagram:before {
+    }
+    .icon-instagram:before {
         content: "\e906";
         color: #fff;
         font-size: 25px;
@@ -178,14 +178,14 @@
         position: relative;
         left: 12px;
         top: 15px;
-      }
-      .icon-lamp:before {
+    }
+    .icon-lamp:before {
         content: "\e907";
         color: #4db282;
         font-size: 65px;
         line-height: 65px;
-      }
-      .icon-quotes:before {
+    }
+    .icon-quotes:before {
         content: "\e90a";
         color: #4db282;
         font-size: 48px;
@@ -193,8 +193,8 @@
         position: absolute;
         right: 0;
         top: -35px;
-      }
-      .icon-twitter:before {
+    }
+    .icon-twitter:before {
         content: "\e90d";
         color: #fff;
         font-size: 16px;
@@ -202,7 +202,7 @@
         position: relative;
         left: 17px;
         top: 15px;
-      }
+    }
     // /...............................................
     // .................................._block__header
     // ..................................................
@@ -222,24 +222,28 @@
     .nav__item-list{
         flex-direction: column;
         z-index: 15;
-
     }
+    .header.menu-open .nav__item-list{
+        li .nav-link{
+            font-size: 32px;
+        }
+    }
+
     .nav__item{
         position: fixed;
         top: 0px;
         margin-left: 25px;
         z-index: 15;
         &:before {
-                content: '';
-                display: block;
-                position: fixed;
-                top: 0;
-                left: 0;
-                width: 100vh;
-                height: 100vh;
-                background-color: brown;
-                z-index: 10;
-
+            content: '';
+            display: block;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vh;
+            height: 100vh;
+            background-color: brown;
+            z-index: 10;
         }
     }
     .menu li:not(:last-child) {
