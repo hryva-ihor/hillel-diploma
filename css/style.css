@@ -1527,9 +1527,6 @@ div.reviews > p.block__head-paragraph.under-paragraph {
 }
 
 @media screen and (max-width: 576px) {
-  .yellow-rectangle-bg::after {
-    display: none;
-  }
   .icon-combined-shape:before,
   .icon-triangle:before,
   .icon-combined-shape:before,
@@ -1958,7 +1955,8 @@ div.reviews > p.block__head-paragraph.under-paragraph {
   }
   .yellow-rectangle-bg::before {
     height: 500px;
-    width: 400px;
+    width: 300px;
+    right: 0;
   }
   .grey-rectangle-bg::before {
     height: 400px;

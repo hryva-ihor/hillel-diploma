@@ -123,9 +123,7 @@
 }
 
 @media screen and (max-width: 576px){
-    .yellow-rectangle-bg::after{
-        display: none;
-    }
+
 
     // ............................................
     // ..............................."icomoon";
@@ -572,7 +570,8 @@
 
     .yellow-rectangle-bg::before{
         height: 500px;
-        width: 400px;
+        width: 300px;
+        right: 0;
     }
     .grey-rectangle-bg::before{
         height: 400px;
