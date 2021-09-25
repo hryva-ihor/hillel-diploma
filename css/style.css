@@ -1474,7 +1474,6 @@ div.reviews > p.block__head-paragraph.under-paragraph {
   }
   .we-build-pro__yellow_bg {
     width: 360px;
-    right: 0px;
   }
   .block__we-build-pro .block__text {
     margin-right: 20px;
@@ -1984,7 +1983,7 @@ div.reviews > p.block__head-paragraph.under-paragraph {
   .yellow-rectangle-bg::before {
     height: 500px;
     width: 300px;
-    right: 0;
+    right: -20px;
   }
   .grey-rectangle-bg::before {
     height: 400px;
