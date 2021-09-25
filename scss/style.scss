@@ -49,6 +49,11 @@ body{
     right:35px;
     cursor:pointer;
     display:none;
+    box-shadow: 0 0 10px rgb(100, 50, 38);
+    transition: all 0.5s;
+    &:hover{
+        box-shadow: 0 0 25px rgb(100, 38, 38);
+    }
 }
 #toTop::before{
     content: '▲';

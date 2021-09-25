@@ -2030,6 +2030,15 @@ body {
   right: 35px;
   cursor: pointer;
   display: none;
+  -webkit-box-shadow: 0 0 10px #643226;
+          box-shadow: 0 0 10px #643226;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+#toTop:hover {
+  -webkit-box-shadow: 0 0 25px #642626;
+          box-shadow: 0 0 25px #642626;
 }
 
 #toTop::before {
