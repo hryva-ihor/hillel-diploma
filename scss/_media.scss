@@ -224,10 +224,12 @@
     }
     .nav-button{
         margin-left: 20px;
+        
     }
     .nav__item-list{
         flex-direction: column;
         z-index: 15;
+        
     }
     .header.menu-open .nav__item-list{
         li .nav-link{
@@ -250,8 +252,20 @@
             height: 100vh;
             background-color: brown;
             z-index: 10;
+            animation-iteration-count: 1;
+            animation-duration: 0.5s;
+            animation-name: slidegdz;
+            animation-fill-mode: forwards;
         }
     }
+    @keyframes slidegdz {
+    0% { width: 10vh; }
+    100% { width: 100vh; }
+    }
+
+
+
+
     .menu li:not(:last-child) {
         margin-right: 0px;
     }
@@ -261,6 +275,7 @@
         position: fixed;
         left: 100px;
         top: 310px;
+        
     }
 // ...............................................................
 // ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,block__creative-diagram

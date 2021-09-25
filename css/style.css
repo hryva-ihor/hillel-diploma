@@ -1663,6 +1663,30 @@ div.reviews > p.block__head-paragraph.under-paragraph {
     height: 100vh;
     background-color: brown;
     z-index: 10;
+    -webkit-animation-iteration-count: 1;
+            animation-iteration-count: 1;
+    -webkit-animation-duration: 0.5s;
+            animation-duration: 0.5s;
+    -webkit-animation-name: slidegdz;
+            animation-name: slidegdz;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+  }
+  @-webkit-keyframes slidegdz {
+    0% {
+      width: 10vh;
+    }
+    100% {
+      width: 100vh;
+    }
+  }
+  @keyframes slidegdz {
+    0% {
+      width: 10vh;
+    }
+    100% {
+      width: 100vh;
+    }
   }
   .menu li:not(:last-child) {
     margin-right: 0px;
