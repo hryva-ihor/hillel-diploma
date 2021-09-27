@@ -57,6 +57,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding: 30px 0;
 }
 .slick-track:before,
 .slick-track:after
@@ -117,6 +118,11 @@
 .slick-arrow.slick-hidden {
     display: none;
 }
+.carousel .slick-slide.slick-current{
+    box-shadow: 0px 24px 30px rgba(0, 17, 86, 0.164);
+    border-radius: 8px;
+}
+
 
 /* .slick-slide.slick-current{     
 
@@ -132,21 +138,24 @@
     
     
 }
-.carousel.carousel_reviews .slick-slide{
-    box-shadow: -15px 16px 8px -5px rgba(34, 60, 80, 0.2);;
+.carousel.carousel_reviews .slick-slide.slick-active{
+    box-shadow: 0px 24px 48px rgba(0, 17, 86, 0.0799083);
     border-radius: 8px;
     opacity: 1; 
+
 }
 
 .carousel .slick-slide.slick-active{  
+    box-shadow: 0px 24px 48px rgba(0, 17, 86, 0.082);
+    border-radius: 8px;
     opacity: 0.5;     
-    transition: transform 2s ease-in-out;} 
+    transition: transform 1s ease-in-out;} 
 
 /* } */
 /* Слайд основной */
 .carousel .slick-slide.slick-current{
     opacity: 1; 
-    transition: transform 2s ease-in-out;
+    transition: transform 1s ease-in-out;
 
 }
 
@@ -158,4 +167,4 @@
 } 
 
 /* Клонированный слайд */
-.slick-slide.slick-cloned{        opacity: 0.5;}
+.slick-slide.slick-cloned{        opacity: 1;}

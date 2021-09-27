@@ -1,20 +1,5 @@
 @import "_nullstyle";
-@import "_block__header";
-@import "_block__main";
-@import "_block__creative-diagram";
-@import "_block__we_build_pro";
-@import "_block__support";
-@import "_block__scs";
-@import "_block__portfolio";
-@import "_block__portfolio-cards";
-@import "_block__company";
-@import "_block__strategy";
-@import "_block__strong_members";
-@import "_block__reviews";
-@import "_block__your_next_project";
-@import "_block__company_newsletter";
-@import "_block__footer";
-@import "_media";
+
 // ......................................
 // font-family: 'Hind Siliguri', sans-serif;
 // font-family: 'Work Sans', sans-serif;
@@ -23,7 +8,7 @@ body{
     position: relative;
 }
 .wrapper{
-    background-color: #f3f3f3;
+    // background-color: #f2f2f2f3;
     position: relative;
     z-index: -100;
 }
@@ -45,7 +30,7 @@ body{
     text-align:center;
     padding:5px;
     position:fixed;
-    bottom:35px; /* отступ кнопки от нижнего края страницы*/
+    bottom:35px; 
     right:35px;
     cursor:pointer;
     display:none;
@@ -61,3 +46,20 @@ body{
     font-size: 30px;
     line-height: 40px;
 }
+
+@import "_block__header";
+@import "_block__main";
+@import "_block__creative-diagram";
+@import "_block__we_build_pro";
+@import "_block__support";
+@import "_block__scs";
+@import "_block__portfolio";
+@import "_block__portfolio-cards";
+@import "_block__company";
+@import "_block__strategy";
+@import "_block__strong_members";
+@import "_block__reviews";
+@import "_block__your_next_project";
+@import "_block__company_newsletter";
+@import "_block__footer";
+@import "_media";

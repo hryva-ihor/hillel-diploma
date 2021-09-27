@@ -100,7 +100,7 @@
                 slidesPerRow: 1,
                 slidesToShow: 3,
                 slidesToScroll: 1,
-                speed: 1000,
+                speed: 500,
                 swipe: true,
                 swipeToSlide: false,
                 touchMove: true,

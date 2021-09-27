@@ -3,6 +3,26 @@
 // ......................................................................
 .block__creative-diagram {
     margin-top: 115px;
+    .block__text{
+        .block__head{
+            .block__head-title{
+                display: block;
+                width: 330px;
+                font-size: 72px;
+                line-height: 80px;
+                span{
+                    color: #4DB282;
+                    &::after{
+                        content: '';
+                        display: block;
+                        background-image: url(../img/creativeBlock/Bitmap.png);
+                        width: 347px;
+                        height: 23px;
+                    }
+                }
+            }
+        }
+    }
 }
 
 .block__text {
@@ -17,16 +37,25 @@
         line-height: 32px;
         letter-spacing: 1px;
         text-transform: uppercase;
+        &::before{
+            content: '';
+            margin: 60px 12px 0 0;
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            background-color: #f07566;
+            border-radius: 6px;
+        }
     }
 }
-.point {
-    margin: 60px 12px 0 0;
-    display: inline-block;
-    width: 12px;
-    height: 12px;
-    background-color: #f07566;
-    border-radius: 6px;
-}
+// .point {
+//     margin: 60px 12px 0 0;
+//     display: inline-block;
+//     width: 12px;
+//     height: 12px;
+//     background-color: #f07566;
+//     border-radius: 6px;
+// }
 .block__head div:first-child {
     margin-top: 25px;
 }

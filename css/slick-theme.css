@@ -173,14 +173,14 @@
     outline: none;
     background: transparent;
 }
-.slick-dots li button:hover,
+/* .slick-dots li button:hover,
 .slick-dots li button:focus
 {
     color: #F07566;
 	box-shadow: inset 0 0 0 3px #F07566;
     border-radius: 10px;
     outline: none;
-}
+} */
 .slick-dots li button:hover:before,
 .slick-dots li button:focus:before
 {
@@ -199,7 +199,7 @@
     width: 20px;
     height: 20px;
 
-    content: '✪';
+    content: '●';
     text-align: center;
 
     opacity: 0.5;
@@ -220,3 +220,13 @@
     background-color: #F07566;
     z-index: 100;
 }
+
+.carousel.carousel_reviews .slick-prev, .carousel.carousel_reviews .slick-next{
+    box-shadow: 0 0 10px rgb(100, 50, 38);
+    transition: all 0.5s;
+}
+
+.carousel.carousel_reviews .slick-prev:hover, .carousel.carousel_reviews .slick-next:hover{
+    box-shadow: 0 0 25px rgb(100, 38, 38);
+}
+
